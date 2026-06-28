@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { GameLayout } from "@/components/layout/GameLayout";
+import { Hero } from "@/components/landing/Hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-zinc-950">
-      <Button>
-        Enter The Nexus
-      </Button>
-    </main>
+    <GameLayout>
+      <Hero />
+    </GameLayout>
   );
 }
